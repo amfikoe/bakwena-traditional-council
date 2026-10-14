@@ -31,7 +31,7 @@ jobs:
         fi
         cp "$JAR" release-artifacts/
         cd release-artifacts
-        zip -r ../release.zip.
+        .zip -r ../release.zip.
         cd ..
 
     - name: Create GitHub Release and upload ZIP
