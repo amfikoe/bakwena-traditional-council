@@ -12,6 +12,5 @@
         cd release-artifacts
         echo "Files to be archived:"
         ls -la
-        # IMPORTANT: include a space before the dot so zip gets the file list
         zip -r ../release.zip .
         cd ..
