@@ -1,5 +1,5 @@
-    - name: Create release zip
-      run: |
+- name: Create release zip
+    run: |
         set -e
         mkdir -p release-artifacts
         JAR=$(ls target/*.jar | head -n 1 || true)
